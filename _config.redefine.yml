@@ -27,7 +27,7 @@ defaults:
   # Favicon
   favicon: /images/header.png
   # Site logo
-  logo: 
+  logo: /images/header.png
   # Site avatar
   avatar: /images/header.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -93,8 +93,8 @@ global:
   # Whether to enable open graph
   open_graph:
     enable: true
-    image: /images/opengraph.jpg  # default og:image
-    description: Explore pwn blogs from here
+    image: /images/opgraph.jpg  # default og:image
+    description: ""
   # Google Analytics
   google_analytics:
     enable: false # Whether to enable Google Analytics
@@ -125,8 +125,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/light.jpg
-    dark: /images/dark.jpg
+    light: /images/bg.png
+    dark: /images/bg.png
   # Home banner title
   title: 红迹云游
   # Home banner subtitle
@@ -144,16 +144,16 @@ home_banner:
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color: 
-    light: "#fff" # light mode
-    dark: "#d1d1b6" # dark mode
+    light: "#E9E5DC" # light mode
+    dark: "#E9E5DC" # dark mode
   # Specific style of the text
   text_style: 
     # Title font size
-    title_size: 2.8rem
+    title_size: 3rem
     # Subtitle font size
-    subtitle_size: 1.5rem
+    subtitle_size: 1.7rem
     # Line height between title and subtitle
-    line_height: 1.2
+    line_height: 1.3
   # Home banner custom font
   custom_font: 
     # Whether to enable custom font
@@ -165,7 +165,7 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: true
+    enable: false
     # Social links style
     style: default # default, reverse, center
     # Social links
@@ -183,34 +183,40 @@ navbar:
   auto_hide: false
   # Navbar background color
   color:
-    left: "#f78736" #left side 
-    right: "#367df7"  #right side
+    left: "#b41c11" #left side 
+    right: "#bf7756"  #right side
     transparency: 35 #percent (10-99)
   # Navbar width (usually no need to modify)
   width:
     home: 1200px #home page
     pages: 1000px #other pages
   # Navbar categories
-  categories:
-    Categories:
-      icon: fa-solid fa-folder
-      path: /categories/
+  # categories:
+  #   Categories:
+  #     icon: fa-solid fa-folder
+  #     path: /categories/
   # Navbar tags
-  tags:
-    Tags:
-      icon: fa-solid fa-tags
-      path: /tags/
+  # tags:
+  #   Tags:
+  #     icon: fa-solid fa-tags
+  #     path: /tags/
   # Navbar links
   links:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
-    Tags:
-      icon: fa-solid fa-tags
-      path: /tags/
-    Categories:
-      icon: fa-solid fa-folder
-      path: /categories/
+    井冈山:
+      icon: fa-solid fa-landmark
+      path: https://jgsgmbwg.com
+    平津:
+      icon: fa-solid fa-landmark-dome
+      path: http://www.pjzyjng.com
+    西柏坡:
+      icon: fa-solid fa-landmark-flag
+      path: http://www.xibaipo.org.cn
+    抗日战争:
+      icon: fa-solid fa-monument
+      path: https://www.1937china.com
     # Archives: 
     #   path: /archives 
     #   icon: fa-regular fa-archive # can be empty
@@ -264,14 +270,14 @@ home:
   # Article date format
   article_date_format: auto # auto, relative, YYYY-MM-DD, YYYY-MM-DD HH:mm:ss etc.
   # Article excerpt length
-  excerpt_length: 200 # Max length of article excerpt
+  excerpt_length: 150 # Max length of article excerpt
   # Article categories visibility
   categories:
-    enable: true  # Whether to enable
+    enable: false  # Whether to enable
     limit: 3 # Max number of categories to display
   # Article tags visibility
   tags:
-    enable: true  # Whether to enable
+    enable: false  # Whether to enable
     limit: 3  # Max number of tags to display
 # HOME PAGE ARTICLE SETTINGS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
