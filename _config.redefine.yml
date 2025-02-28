@@ -25,11 +25,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/icon.svg
+  favicon: /images/header.png
   # Site logo
   logo: 
   # Site avatar
-  avatar: /images/avatar.png
+  avatar: /images/header.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -131,7 +131,7 @@ home_banner:
   title: 红迹云游
   # Home banner subtitle
   subtitle:
-    text: ['Pwn everything!', 'Make C Great Again!', 'I just popped a shell.', 'Privilege escalation achieved.', 'ASLR bypassed.', 'FSOP chain deployed.'] # subtitle text, array
+    text: ['红迹铭心 云游共赏'] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -140,7 +140,7 @@ home_banner:
     backing_speed: 80 # Backing speed (ms)
     starting_delay: 2000 # Start delay (ms)
     backing_delay: 5000 # Backing delay (ms)
-    loop: true # Whether to loop
+    loop: false # Whether to loop
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color: 
@@ -251,15 +251,6 @@ home:
     announcement: # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
     links:
-      友情链接:
-        icon: fa-solid fa-users
-        path: /links/
-      上新先看:
-        icon: fa-solid fa-dove
-        path: https://github.com/RocketMaDev/CTFWriteup
-      源码仓库:
-        icon: fa-solid fa-box-archive
-        path: https://github.com/RocketMaDev/RocketMaDev.github.io
       # Archives: 
       #   path: /archives 
       #   icon: fa-regular fa-archive # can be empty
@@ -362,7 +353,7 @@ articles:
 # Docs: https://redefine-docs.ohevan.com/posts/comment
 comment:
   # Whether to enable comment
-  enable: true
+  enable: false
   # Comment system
   system: giscus # waline, gitalk, twikoo, giscus
   # System configuration
@@ -411,7 +402,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2024/7/22 20:00:00
+  start: 2025/2/27 12:00:00
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
@@ -428,15 +419,9 @@ footer:
 # Docs: https://redefine-docs.ohevan.com/inject
 inject:
   # Whether to enable inject
-  enable: true
+  enable: false
   # Inject custom head html code
-  head:
-    - |
-      <script>
-        if (window.location.hostname === "rocketmadev.github.io") {
-          window.location.replace("https://rocketma.dev" + window.location.pathname + window.location.search);
-        }
-      </script>
+  # head:
     # -
   # Inject custom footer html code
   # footer:
