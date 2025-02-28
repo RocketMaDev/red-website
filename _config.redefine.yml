@@ -149,19 +149,19 @@ home_banner:
   # Specific style of the text
   text_style: 
     # Title font size
-    title_size: 3rem
+    title_size: 7rem
     # Subtitle font size
     subtitle_size: 1.7rem
     # Line height between title and subtitle
-    line_height: 1.3
+    line_height: 2
   # Home banner custom font
   custom_font: 
     # Whether to enable custom font
-    enable: false
+    enable: true
     # Font family
-    family: 
+    family: "Alimama DongFangDaKai"
     # URL to font CSS file
-    url:
+    url: https://cdn.jsdelivr.net/npm/cn-fontsource-alimama-dong-fang-da-kai-regular/font.css
   # Home banner social links
   social_links:
     # Whether to enable
@@ -333,7 +333,7 @@ articles:
   # Whether to enable copyright notice
   copyright:
     enable: true # Whether to enable
-    default: cc_by_nc_sa # Default license, can be cc_by_nc_sa, cc_by_nd, cc_by_nc, cc_by_sa, cc_by, all_rights_reserved, public_domain
+    default: cc_by_nc # Default license, can be cc_by_nc_sa, cc_by_nd, cc_by_nc, cc_by_sa, cc_by, all_rights_reserved, public_domain
   # Whether to enable lazyload for images
   lazyload: true
   # Pangu.js (automatically add space between Chinese and English). See https://github.com/vinta/pangu.js
