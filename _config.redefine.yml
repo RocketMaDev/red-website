@@ -205,6 +205,9 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
+    Categories:
+      path: /categories/
+      icon: fa-solid fa-folder
     井冈山:
       icon: fa-solid fa-landmark
       path: https://jgsgmbwg.com
@@ -273,7 +276,7 @@ home:
   excerpt_length: 150 # Max length of article excerpt
   # Article categories visibility
   categories:
-    enable: false  # Whether to enable
+    enable: true  # Whether to enable
     limit: 3 # Max number of categories to display
   # Article tags visibility
   tags:

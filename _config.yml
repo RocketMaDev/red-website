@@ -97,6 +97,10 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: redefine
+# hexo-directory-category
+auto_dir_categorize:
+    enable: true  # Whether to enable
+    limit: 3 # Max number of categories to display
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
