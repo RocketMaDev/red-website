@@ -11,7 +11,7 @@
 # Docs: https://redefine-docs.ohevan.com/basic/info
 info:
   # Site title
-  title: 红迹云游
+  title: 红迹云途
   # Site subtitle
   subtitle: 红迹铭心 云游共赏
   # Author name
@@ -128,7 +128,7 @@ home_banner:
     light: /images/bg.png
     dark: /images/bg.png
   # Home banner title
-  title: 红迹云游
+  title: 红迹云途
   # Home banner subtitle
   subtitle:
     text: ['红迹铭心 云游共赏'] # subtitle text, array
